@@ -3,10 +3,15 @@
  */
 
 // Tabs
-$('#work_security a[href="#work_security"]').tab('show');
-$('#work_embedded a[href="#work_embedded"]').tab('show');
-$('#work_web a[href="#work_web"]').tab('show');
+//$('#work_security a[href="#work_security"]').tab('show');
+//$('#work_embedded a[href="#work_embedded"]').tab('show');
+//$('#work_web a[href="#work_web"]').tab('show');
 
+// Tabs enhanced collapse effects
+$('.content-tabs').tabCollapse();
 
-// Timeline
-
+// initialize tab show function
+$('.nav-tabs a').click(function(e) {
+    e.preventDefault();
+    $(this).tab('show');
+});

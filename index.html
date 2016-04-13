@@ -38,15 +38,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Bojie Sun</a>
+          <a class="navbar-brand" href="#">Bojie Sun</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
+      	
       </div>
     </div>
 
@@ -54,14 +55,16 @@
 	<div id="ww">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="assets/img/profile_photo.jpg" alt="Stanley">
+				<div class="col-md-4 centered">
+					<img class="img-circle img-responsive" src="assets/img/profile_photo.jpg" alt="Bojie">
+				</div>
+				<div class="col-md-7 col-md-offset-1">
 					<h1>Hi, I am Bojie</h1>
 					<p>Hello everybody. I'm Bojie, </p>
 					<p>Please send a message to my <a href="bojie.sun@hotmail.com">E-mail account</a>. I'd be very happy to figure out what we can work on together.</p>
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
+				</div>
+			</div>
+	    </div>
 	</div><!-- /ww -->
 	
 	
@@ -75,7 +78,7 @@
 	  	</div>
 	  
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-tabs content-tabs" role="tablist">
 		    <li role="presentation" class="active"><a href="#work_security" aria-controls="work_security" role="tab" data-toggle="tab">Digital Security</a></li>
 		    <li role="presentation"><a href="#work_embedded" aria-controls="work_embedded" role="tab" data-toggle="tab">Embedded Software</a></li>
 		    <li role="presentation"><a href="#work_web" aria-controls="work_web" role="tab" data-toggle="tab">Web Applications</a></li>
@@ -161,17 +164,84 @@
 	<div id="skills" class="container">
 
 	  <div class="page-header">
-	    <h1 class="sectionHeader">Skills</h1>
+	    <h1 class="sectionHeader">Knowledge & Skills</h1>
 	  </div>
 
-	  <!-- to fill in -->
+	  <!-- Section 1: Knowledge -->
+	  <div class="col-md-4">
+	  	<ul class="list-group">
+		  
+		  <li class="list-group-item">
+		    <span class="badge">TDD</span>
+		    Test Driven Development
+		  </li>
+		  
+		  <li class="list-group-item">
+		    <span class="badge"></span>
+		    Software System Integration
+		  </li>
+		  
+		  <li class="list-group-item">
+		    <span class="badge">RTC</span>
+		    Real-Time Computing
+		  </li>
+		  
+		  <li class="list-group-item">
+		    <span class="badge"></span>
+		    Software-Hardware Codesign
+		  </li>
+		  
+		</ul>
+	  </div>
+	  
+	  <!-- Section 2: Programming -->
+	  <div class="col-md-8">
+		<div class="row">                   
+	        <div class="progress">
+	            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+	                <span class="sr-only">80% Complete</span>
+	            </div>
+	            <span class="progress-type">C</span>
+	            <span class="progress-completed">proficient</span>
+	        </div>
+	        <div class="progress">
+	            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+	                <span class="sr-only">80% Complete</span>
+	            </div>
+	            <span class="progress-type">Java</span>
+	            <span class="progress-completed">proficient</span>
+	        </div>
+	        <div class="progress">
+	            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+	                <span class="sr-only">70% Complete</span>
+	            </div>
+	            <span class="progress-type">Python / Django</span>
+	            <span class="progress-completed">intermediate</span>
+	        </div>
+	        <div class="progress">
+	            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+	                <span class="sr-only">70% Complete</span>
+	            </div>
+	            <span class="progress-type">JavaScript / jQuery / AngularJS</span>
+	            <span class="progress-completed">intermediate</span>
+	        </div>
+	        <div class="progress">
+	            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+	                <span class="sr-only">80% Complete</span>
+	            </div>
+	            <span class="progress-type">VisualBasic.NET</span>
+	            <span class="progress-completed">proficient</span>
+	        </div>
+		</div>  	
+	  </div>
 	  
 	</div>
 
+	<br />
 
 
 	<!-- +++++ Education Timeline Section +++++ -->
-	<div id="education" class="container">
+	<div id="experience" class="container">
 	  
 	  <div class="page-header">
 	    <h1 class="sectionHeader">Experience</h1>
@@ -350,6 +420,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-tabcollapse.js"></script>
     <script src="assets/js/main.js"></script>
+    
   </body>
 </html>
