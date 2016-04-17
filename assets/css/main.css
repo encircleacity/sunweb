@@ -468,6 +468,7 @@ bt {
 .timeline-footer {
     padding: 5px 15px;
     background-color:#f4f4f4;
+    text-align: right;
 }
 .timeline-footer p { margin-bottom: 0; }
 .timeline-footer > a {
