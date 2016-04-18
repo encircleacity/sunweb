@@ -53,6 +53,10 @@ p {
     text-align: center;
 }
 
+'lefted {
+	text-aling: left;
+}
+
 /* Links */
 a {
     color: #1abc9c;
@@ -99,9 +103,12 @@ a:after {
 .navbar-inverse {
 	padding-bottom: 30px;
 	padding-top: 30px;
+	/* 
 	background-color: #1abc9c;
 	border-color: #16a085;
-
+	*/
+	background-color: #336699;
+	border-color: #428bca;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
