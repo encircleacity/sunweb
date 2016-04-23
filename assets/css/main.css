@@ -7,13 +7,13 @@
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 400;
+    font-size: 16px;
     color: #777;
 
     -webkit-font-smoothing: antialiased;
@@ -22,23 +22,30 @@ body {
 
 /* Titles */
 h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    color: #333;	
+    color: #333;
 } 
 
 h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
     font-weight: normal;
     color: #555;
 }
 
 h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	width:100%;
+	text-align: center;
+    line-height:0.1em;
+    border-bottom: 1px solid #eeeeee;
+	margin: 10px 0 20px;
+	margin-bottom: 60px;
 }
 
+h1 span {
+	background:#FFFFFF;
+	padding: 0px 15px 0px;
+}
 
 
 /* Paragraph & Typographic */
@@ -46,7 +53,7 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 .centered {
@@ -59,7 +66,6 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -71,7 +77,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #336699;
     text-decoration: none;
     outline: 0;
 }
@@ -89,11 +95,13 @@ a:after {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #333;
     margin: 1em 0;
     padding: 0;
 }
 
+
+/* Navbar */
 
 .navbar {
 	text-transform: uppercase;
@@ -101,31 +109,28 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 30px;
-	padding-top: 30px;
-	/* 
-	background-color: #1abc9c;
-	border-color: #16a085;
-	*/
-	/*
-	background-color: #336699;
-	border-color: #428bca;
-	*/
+	padding-bottom: 10px;
+	padding-top: 10px;
 	background-color: white;
-	border-color: #336699;
+	border-color: transparent;
 	
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #336699;
+    border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: #336699;
+	color: #333;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: #336699;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #333;
+    background-color: transparent;
 }
 
 .navbar-brand {
@@ -135,21 +140,24 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand {
-	color: #336699;
+	color: #333;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: #336699;
+	border-color: #333;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #336699;
+    background-color: #333;
 }
 
 .progress-bar-theme {
   background-color: #1abc9c;
 }
 
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #428bca;
+}
 
 /* Helpers */
 
@@ -159,15 +167,15 @@ a:after {
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-	padding-top: 150px;
+	padding-top: 120px;
 	padding-bottom: 10px;
 	/* background-color: #f2f2f2; */
 	background-color: white;
@@ -270,27 +278,8 @@ bt {
 */
 
 
-#sectionHeader {
-  list-style: none;
-  padding: 20px 0 20px;
-  position: relative;
-}
-#sectionHeader:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: " ";
-  width: 3px;
-  background-color: #eeeeee;
-  left: 50%;
-  margin-left: -1.5px;
-}
-
 /* ================== Tabs ================== */
 
-.nav-tabs li a {
-	font-size:18px;
-}
 
 .panel-heading {
     padding: 0
@@ -318,10 +307,11 @@ bt {
 .nav.nav-tabs li.active > a:focus {
     border-bottom-width: 0px;
     outline: none;
+    font-weight: bold;
 }
 .nav.nav-tabs li a {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .tab-pane {
     background: #fff;
@@ -330,6 +320,16 @@ bt {
     margin-top: -1px;
 }
 
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
 
 /* ================== Knowledge list ================== */
 .list-group-item {
@@ -350,15 +350,15 @@ bt {
 .progress > .progress-type {
 	position: absolute;
 	left: 0px;
-	font-weight: 800;
-	padding: 3px 30px 2px 10px;
+	font-weight: 700;
+	padding: 1px 30px 2px 10px;
 	color: rgb(255, 255, 255);
 	background-color: rgba(25, 25, 25, 0.2);
 }
 .progress > .progress-completed {
 	position: absolute;
 	right: 0px;
-	font-weight: 800;
+	font-weight: 700;
 	padding: 3px 10px 2px;
 }
 
