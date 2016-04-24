@@ -23,7 +23,7 @@ body {
 /* Titles */
 h1 {
 	font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     color: #333;
 } 
 
@@ -65,6 +65,7 @@ p {
 }
 
 /* Links */
+
 a {
     word-wrap: break-word;
 
@@ -75,12 +76,14 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+
 a:hover,
 a:focus {
     color: #336699;
     text-decoration: none;
     outline: 0;
 }
+
 
 a:before,
 a:after {
@@ -91,6 +94,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+
  hr {
     display: block;
     height: 1px;
@@ -100,6 +104,11 @@ a:after {
     padding: 0;
 }
 
+/* image */
+img {
+	position: relative;
+	margin:auto;
+}
 
 /* Navbar */
 
@@ -551,3 +560,71 @@ bt {
         left: 28px;
     }
 }
+
+
+/* Portfolio Modals */
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+
