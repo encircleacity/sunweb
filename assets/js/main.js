@@ -10,3 +10,6 @@ $('.navbar-nav a').on('click', function(){
 // Tabs enhanced collapse effects from bootstrap-tabcollapse.js
 $('.content-tabs').tabCollapse();
 
+
+
+

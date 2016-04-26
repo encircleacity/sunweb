@@ -95,7 +95,7 @@ a:after {
 }
 
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -109,6 +109,8 @@ img {
 	position: relative;
 	margin:auto;
 }
+
+
 
 /* Navbar */
 

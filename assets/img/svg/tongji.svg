@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
-   height="60"
+   width="500"
+   height="300"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="tongji.svg"
-   inkscape:export-filename="/home/encircleacity/Documents/Aptana Studio 3 Workspace/sunweb/sunweb_github/sunweb/assets/img/bosch.png"
+   inkscape:export-filename="/home/encircleacity/Documents/Aptana Studio 3 Workspace/sunweb/sunweb_github/sunweb/assets/img/tongji.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="107.85504"
-     inkscape:cy="26.15007"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="306.69835"
+     inkscape:cy="175.09214"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1008"
-     inkscape:window-height="642"
-     inkscape:window-x="521"
-     inkscape:window-y="257"
+     inkscape:window-width="937"
+     inkscape:window-height="679"
+     inkscape:window-x="730"
+     inkscape:window-y="261"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -55,11 +55,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-992.36215)">
+     transform="translate(0,-752.36218)">
     <image
-       y="992.36212"
+       y="837.48578"
        x="0"
-       id="image3143"
+       id="image3228"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEsCAYAAADZzSZHAAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJzsvXmUXMd15vm7ES8za8FW2EEABEFw30mJlEjJohaLWizJ6rF7PKO228ct27Lb4+4Z9zkzttvj
 mWnvY7s9smyNPC1blihLoiWRlGyJFEVzJ8UVJEACIHZirwVL7VWZ+SLu/BHxXmYVCgtJAATI+Hh4
@@ -4445,10 +4445,7 @@ R5yEJBVKc6Gkqpfo5nHx+U1E6nSq4JROMXE4HA6Hw+FwOBwOx2cPJ5g4HA6Hw+FwOBwOh8PhcBTg
 tvcdDofD4XA4HA6Hw+FwOApwgonD4XA4HA6Hw+FwOBwORwFOMHE4HA6Hw+FwOBwOh8PhKOD/A1zR
 RmqkJSENAAAAAElFTkSuQmCC
 "
-       height="60"
-       width="150"
-       inkscape:export-filename="/home/encircleacity/Documents/Aptana Studio 3 Workspace/sunweb/sunweb_github/sunweb/assets/img/tongji.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       height="136.36363"
+       width="500" />
   </g>
 </svg>
